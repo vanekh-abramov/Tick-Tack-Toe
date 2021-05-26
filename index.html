@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TickTackToe</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="window-result">
+        <p class="result">Победа крестов</p>
+        <button class="btn">restart</button>
+    </div>
+    <h1 class="head">Tick-Tack-Toe</h1>
+
+    <div class="players-counter-wrapper">
+        <div class="players-counter-first">0</div>
+        <div class="players-counter-second">0</div>
+    </div>
+    
+    <div class="container-wrapper">
+        <div class="container" id="container">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+<!-- preloader -->
+    <div id="preloader" class="preloader">
+        <div id="preloader-bg" class="preloader-bg"></div>
+        <div class="persons-block">
+            <div class="cross-person"></div>
+        <input class="name x-name" id="x-name" type="text" placeholder="add ur name">
+        </div>
+        <div class="persons-block">
+            <div class="zero-person"></div>
+        <input class="name o-name" id="o-name" type="text" placeholder="add ur name">
+        </div>
+        <button class="start-btn">Start</button>
+      </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
